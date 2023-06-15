@@ -6,6 +6,9 @@
 
 ## User
 
+I WANT to generate a simple logo for my projects
+SO THAT I don't have to pay a graphic designer
+
 
 
 
@@ -20,7 +23,9 @@
 
 ## Installation 
 
-Run "Node index.js" in terminal 
+- Run "Node index.js" in terminal 
+
+- Follow prompts to create 
 
 
 ## Usage 
