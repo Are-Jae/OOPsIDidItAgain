@@ -19,6 +19,7 @@
 - License
 - App
 - Repo
+- Future Usage
 - Credits 
 
 ## Installation 
@@ -42,10 +43,14 @@ MIT
 
 - svg file [here]
 
-
+ 
 ## Repository
 
 https://github.com/Are-Jae/OOPsIDidItAgain 
+
+## Future Usage
+
+I would like to be able to generate non geomtrical shapes for the logo such as: hearts, spades, ovals, etc 
 
 
 ## Credit 
