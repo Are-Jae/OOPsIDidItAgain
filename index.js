@@ -2,19 +2,19 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const { Triangle, Circle, Square } = require('./lib/shapes');
 
-// Function to prompt the user for input
+
 function promptUser() {
   return inquirer.prompt([
     {
       type: 'list',
       name: 'shape',
-      message: 'Select a shape:',
+      message: 'Choose a shape:',
       choices: ['Triangle', 'Circle', 'Square'],
     },
     {
       type: 'input',
       name: 'color',
-      message: 'Enter a color for the shape:',
+      message: 'Pick a color for the shape:',
     },
     {
       type: 'input',
@@ -24,7 +24,6 @@ function promptUser() {
   ]);
 }
 
-// Function to generate the SVG markup based on user input
 function generateSVG(shape, color, text) {
   let shapeObj;
 
@@ -47,13 +46,13 @@ function generateSVG(shape, color, text) {
   return svgMarkup;
 }
 
-// Function to save the SVG markup as an SVG file
+
 function saveSVGFile(filename, svgMarkup) {
   fs.writeFileSync(filename, svgMarkup);
   console.log(`SVG file saved as ${filename}`);
 }
 
-// Main function to generate the logo
+
 async function generateLogo() {
   try {
     const userInput = await promptUser();
@@ -61,12 +60,11 @@ async function generateLogo() {
 
     const svgMarkup = generateSVG(shape, color, text);
 
-    const filename = 'logo.svg'; // Provide a suitable filename here
+    const filename = 'logo.svg'; 
     saveSVGFile(filename, svgMarkup);
   } catch (error) {
     console.error('An error occurred:', error);
   }
 }
 
-// Run the logo generation process
 generateLogo();

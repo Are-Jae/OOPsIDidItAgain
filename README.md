@@ -32,7 +32,9 @@
 ## Usage 
 
 - After running "node index.js" in terminal user will be presented with propmts
-- When user answers all of the prompts their desired SVG logo will be generated 
+- User will use arrow keys to make selections
+- User will hit enter/return to input selection 
+- When all prompts are answered a SVG file will be created  
 
 ## License 
 
