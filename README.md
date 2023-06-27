@@ -41,9 +41,9 @@
 MIT
 
 ## App 
-- tutorial [here]
+- tutorial [https://drive.google.com/file/d/1__AvB8DH8ukautUyUQrg_Ov3u3hQ7Cw0/view?usp=drive_link]
 
-- svg file [here]
+- svg file [logo.svg]
 
  
 ## Repository
