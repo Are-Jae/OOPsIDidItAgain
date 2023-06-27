@@ -52,8 +52,9 @@ https://github.com/Are-Jae/OOPsIDidItAgain
 
 ## Future Usage
 
-I would like to be able to generate non geomtrical shapes for the logo such as: hearts, spades, ovals, etc 
+- I would like to be able to generate non geomtrical shapes for the logo such as: hearts, spades, ovals, etc 
 
+- I would also like for the text to wrap around the shape instead of going across 
 
 ## Credit 
 
